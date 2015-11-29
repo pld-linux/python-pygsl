@@ -11,6 +11,7 @@ Group:		Development/Languages/Python
 Source0:    %{module}-%{snap}.tar.bz2
 # Source0-md5:	c5851a4feeb991bf2ffb58e5b5fcd0ab
 URL:		http://pygsl.sourceforge.net
+BuildRequires:	rpmbuild(macros) >= 1.710
 Patch0:     %{name}-initmodule.patch
 BuildRequires:  gcc
 BuildRequires:  gsl-devel >= 1.11
