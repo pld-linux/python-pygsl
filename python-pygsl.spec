@@ -29,7 +29,7 @@ Pythonowy interfejs do GSL.
 
 %prep
 %setup -q -n %{module}-%{snap}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %py_build
